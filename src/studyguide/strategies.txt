@@ -1,0 +1,79 @@
+The term "compression strategy" in
+the context of algorithmic problem-solving
+ typically refers to techniques used to reduce
+  the size or complexity of data or representations
+   while preserving essential information. In algorithms,
+    compression strategies are often employed to optimize
+     memory usage, improve runtime efficiency, or facilitate
+      faster processing. Here are some similar strategies or
+      techniques related to compression:
+
+1. **Run-Length Encoding (RLE)**:
+
+Run-length encoding is a simple form
+of data compression where sequences
+
+of the same value (runs) are stored
+ as a single data value and count.
+ It's commonly used for compressing
+ data with long sequences of repeated
+ values.
+
+2. **Huffman Coding**:
+Huffman coding is a widely
+used algorithm for lossless
+data compression that assigns
+variable-length codes to input
+characters based on their frequencies.
+Characters that occur more frequently
+are assigned shorter codes, resulting
+in more efficient compression.
+
+3. **Lempel-Ziv-Welch (LZW) Compression**:
+LZW is a dictionary-based compression
+algorithm that replaces repetitive
+patterns of data with references
+to a dictionary of previously
+encountered patterns. It's commonly
+used in file compression formats
+like GIF and TIFF.
+
+4. **Delta Encoding**:
+Delta encoding is a technique where
+differences between successive data
+values are encoded rather than the
+actual values themselves. It's often
+used for compressing time-series data
+or data with predictable trends.
+
+5. **Burrows-Wheeler Transform (BWT)**:
+The Burrows-Wheeler Transform is a
+reversible transformation technique
+used in data compression algorithms
+like bzip2. It rearranges the characters
+in the input string to group similar
+characters together, making it easier
+to apply entropy encoding techniques.
+
+6. **Lempel-Ziv-Markov Chain Algorithm
+(LZMA)**: LZMA is a variant of the LZ77
+compression algorithm that incorporates
+additional features like dictionary size
+optimization and a range of compression
+ levels to achieve high compression ratios.
+
+7. **Arithmetic Coding**: Arithmetic coding is a
+more sophisticated form of entropy encoding
+that encodes entire messages into a single
+fractional number between 0 and 1. It's capable
+of achieving better compression ratios than
+Huffman coding but is also more complex.
+
+8. **Dictionary Compression**: Dictionary
+compression algorithms maintain a dictionary
+of frequently occurring patterns or phrases
+in the input data and replace them with shorter
+codes. This approach is used in algorithms like
+LZ77 and LZ78.
+
+These techniques are commonly employed in various compression algorithms and file formats to achieve efficient data storage and transmission while minimizing resource usage. Understanding these strategies can be beneficial for designing efficient compression algorithms or understanding how existing compression techniques work.
