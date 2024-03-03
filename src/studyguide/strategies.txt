@@ -76,4 +76,59 @@ in the input data and replace them with shorter
 codes. This approach is used in algorithms like
 LZ77 and LZ78.
 
-These techniques are commonly employed in various compression algorithms and file formats to achieve efficient data storage and transmission while minimizing resource usage. Understanding these strategies can be beneficial for designing efficient compression algorithms or understanding how existing compression techniques work.
+Algorithms
+
+1. Graph Algorithms: Algorithms that operate on graphs, such as depth-first search (DFS), breadth-first search (BFS), shortest path algorithms (Dijkstra's algorithm, Bellman-Ford algorithm), and minimum spanning tree algorithms (Prim's algorithm, Kruskal's algorithm).
+
+2. Dynamic Programming: A method for solving complex problems by breaking them down into simpler subproblems and storing the results of subproblems to avoid redundant calculations. Examples include the knapsack problem, longest common subsequence problem, and Fibonacci sequence calculation.
+
+3. Tree Algorithms: Algorithms that operate on trees, such as tree traversal algorithms (in-order, pre-order, post-order), binary search tree (BST) operations (insertion, deletion, searching), and balancing algorithms (AVL trees, red-black trees).
+
+4. String Algorithms: Algorithms that operate on strings, including string searching algorithms (KMP algorithm, Boyer-Moore algorithm), string matching algorithms (Rabin-Karp algorithm), and string manipulation algorithms.
+
+5. Numerical Algorithms: Algorithms for numerical computations, such as numerical integration, numerical differentiation, root-finding algorithms (Newton's method, bisection method), and linear algebra algorithms (matrix multiplication, eigenvalue decomposition).
+
+6. Computational Geometry: Algorithms for solving geometric problems, including convex hull algorithms, closest pair of points problem, line segment intersection, and polygon triangulation.
+
+7. Network Algorithms: Algorithms for network analysis and optimization, such as maximum flow algorithms (Ford-Fulkerson algorithm, Edmonds-Karp algorithm), minimum cut algorithms, and network routing algorithms.
+
+8. Cryptography: Algorithms for secure communication and data protection, including encryption algorithms (AES, RSA), digital signature algorithms (DSA, ECDSA), and cryptographic hash functions (SHA-256, MD5).
+
+--------------------------------------
+
+searching
+
+1. Regular Binary Search: Searches for a target element in a sorted array by repeatedly dividing the search interval in half.
+2. Lower Bound Binary Search: Finds the index of the first occurrence of a target element in a sorted array. Also known as "lower bound" or "leftmost binary search".
+3. Upper Bound Binary Search: Finds the index of the last occurrence of a target element in a sorted array. Also known as "upper bound" or "rightmost binary search".
+4. Interpolation Search: An improved version of binary search that works better for uniformly distributed arrays by estimating the position of the target element.
+5. Exponential Search: A hybrid search algorithm that performs an exponential jump ahead and then uses binary search to find the target element.
+6. Fractional Cascading: A technique used to speed up binary searches in multiple sorted arrays by reducing the number of comparisons needed.
+7. Ternary Search: Divides the search space into three parts instead of two, resulting in slightly faster convergence in some cases.
+8. Galloping Search: A variation of binary search that accelerates when the difference between the current element and the target is large.
+9. Fibonacci Search: A search algorithm that divides the search interval using Fibonacci numbers, providing better performance in certain cases.
+10. Block Search: Divides the array into blocks and performs binary search within each block to reduce the number of comparisons.
+11. Jump Search: Jumps ahead by a fixed interval and then performs linear search within that interval to approximate the location of the target element before applying binary search.
+12. Binary Search on Bitonic Array: A binary search algorithm used specifically for searching in bitonic arrays, which are sorted in increasing order up to a certain point and then in decreasing order.
+13. Interleave Search: An algorithm that interleaves multiple binary searches to search for multiple targets simultaneously in a single pass.
+
+--------------------------------------------
+
+sorting
+
+1. Bubble Sort
+2. Selection Sort
+3. Insertion Sort
+4. Merge Sort
+5. Quick Sort
+6. Heap Sort
+7. Radix Sort
+8. Bucket Sort
+9. Shell Sort
+10. Cocktail Shaker Sort
+11. Comb Sort
+12. Counting Sort
+13. Cycle Sort
+14. Gnome Sort
+15. Pancake Sort
+
